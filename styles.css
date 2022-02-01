@@ -83,7 +83,7 @@ body {
 .flex-container {
     display: flex;
     justify-content: center;
-    background-color: DodgerBlue;
+    background-color: white;
   }
   
   .flex-container > div {
@@ -94,5 +94,10 @@ body {
     line-height: 75px;
     font-size: 30px;
     justify-items: auto;
+    border-radius: 50%;
+  }
+
+  img {
+    border-radius: 50%;
   }
  
