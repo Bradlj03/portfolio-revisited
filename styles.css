@@ -1,9 +1,10 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
+
 }
+
 .header{
     width: 100%;
     height: 80px;
@@ -28,7 +29,7 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: "comforter";
+    font-family: "ubuntu";
     font-size: 32px;
     font-weight: 200;
 }
@@ -60,7 +61,38 @@
     vertical-align: middle;
     height: 100%;
     color: white;
-    font-family: "comforter";
+    font-family: "ubuntu";
     font-size: 16px;
 
 }
+
+.categories{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+
+}
+ 
+body {
+    background-color: cornflowerblue;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-items: auto;
+  }
+ 
